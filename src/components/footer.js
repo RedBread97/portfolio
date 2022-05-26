@@ -8,8 +8,10 @@ const Footer = () => {
         <footer>
             <Navbar fixed="bottom" expand="lg" variant="light" bg="info">
                 <Container>
-                    <Navbar.Brand href="#https://github.com/RedBread97">RedBread97</Navbar.Brand>
-                    <Navbar.Brand href="#Footer"></Navbar.Brand>
+                    <a href="#https://github.com/RedBread97">
+                    <Navbar.Brand >RedBread97</Navbar.Brand>
+                    </a>
+                    
                 </Container>
             </Navbar>
 
