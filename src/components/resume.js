@@ -4,8 +4,8 @@ import {Card} from 'react-bootstrap'
 
 const Resume = () => {
   return (
-    <resume>
-      <Card bg='info'>
+    <div>
+      <Card bg='secondary' className='resume' > 
     
     
     <Card.Body>
@@ -34,7 +34,7 @@ const Resume = () => {
     </Card.Footer>
     
   </Card>  
-    </resume>
+    </div>
   );
 };
 

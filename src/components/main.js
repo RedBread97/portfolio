@@ -6,8 +6,8 @@ import '../components/main.css'
 
 const Main = () => {
     return (
-      <main>
-         <img src={img} className="strcImg img-fluid" alt="mainImg"></img>
+      <main class='strcImg'>
+         <img src={img} className="strcImg bsPrefix" alt="mainImg"></img>
          
       </main>
     );

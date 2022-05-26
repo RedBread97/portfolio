@@ -8,9 +8,9 @@ import About from '../components/aboutMe'
 
 const Cards = () => {
   return (
-    <cards>
+    <div>
        <CardGroup>
-        <About />
+        
         <Projects />
         <Resume />
         <Contact />
@@ -18,7 +18,7 @@ const Cards = () => {
 
   
 </CardGroup>
-    </cards>
+    </div>
   );
 };
 

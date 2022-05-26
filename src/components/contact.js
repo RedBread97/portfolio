@@ -4,7 +4,7 @@ import {Card} from 'react-bootstrap'
 
 const Contact = () => {
   return (
-    <contact>
+    <div>
         <Card bg='secondary'>
     <Card.Body>
       <Card.Title>Contact Me</Card.Title>
@@ -18,7 +18,7 @@ const Contact = () => {
     <Card.Footer>
     </Card.Footer>
   </Card>
-    </contact>
+    </div>
   );
 };
 

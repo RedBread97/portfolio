@@ -6,7 +6,7 @@ import Gimg from '../components/images/Screenshot Golf_tracker.png'
 
 const Projects = () => {
   return (
-    <projects>
+    <div>
         <CardGroup>
 <Card bg="secondary">
   <Card.Title>Bookworm</Card.Title>
@@ -34,7 +34,7 @@ const Projects = () => {
     </Card.Footer>
   </Card>
   </CardGroup>
-    </projects>
+    </div>
   );
 };
 

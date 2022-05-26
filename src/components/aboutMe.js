@@ -4,8 +4,8 @@ import { Card } from 'react-bootstrap'
 
 const About = () => {
     return (
-        <about>
-            <Card bg='info'>
+        <div>
+            <Card bg='secondary'>
 
 
                 <Card.Body>
@@ -36,7 +36,7 @@ const About = () => {
                 </Card.Footer>
 
             </Card>
-        </about>
+        </div>
     );
 };
 
